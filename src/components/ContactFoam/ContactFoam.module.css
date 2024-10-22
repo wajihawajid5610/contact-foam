@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: end;
+}
+.foam{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.btn{
+    display: flex;
+    gap: 32px;
+}
+.foam form{
+    display:flex;
+    flex-direction:column;
+    gap: 24px; 
+    padding-bottom: 20px;   
+}
+.form_controller{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form_controller input{
+    height: 40px;
+    padding: 0 8px;
+}
+.form_controller textarea{
+    padding: 8px;
+}
+.form_controller label{
+    position :absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 7px;
+    font-size: 14px;
+    padding: 0 10px;
+  
+}
+.submit_btn{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
