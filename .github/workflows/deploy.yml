@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ contactformWithoutDatabase.surge.sh --token ${{ secrets.contact_form }}
+        run: surge ./ contactformfigma.surge.sh --token ${{ secrets.contact_form }}
